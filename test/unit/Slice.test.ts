@@ -49,6 +49,6 @@ describe("Слайс с покупками", () => {
     expect(store.getState().products).toEqual(products);
     expect(jest.mocked(axios.get)).toHaveBeenCalledWith(
       "/hw/store/api/products"
-    );
+    , expect.anything());
   });
 });

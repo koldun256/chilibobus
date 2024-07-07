@@ -81,7 +81,7 @@ describe("Корзина", () => {
         [product.id]: { count: 1, name: product.name, price: product.price },
       },
       form: formData,
-    });
+    }, expect.anything());
     expect(store.getState().latestOrderId).toBe(52);
   });
   it("показывает плашку с последним заказом когда установлен state.latestOrderId", () => {
