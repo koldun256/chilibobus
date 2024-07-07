@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Корзина показывает плашку с последним заказом когда установлен state.latestOrderId 1`] = `
+<div
+  class="Cart-SuccessMessage alert alert-success"
+>
+  <h4
+    class="alert-heading"
+  >
+    Well done!
+  </h4>
+  <p>
+    Order #
+    <strong
+      class="Cart-Number"
+    >
+      52
+    </strong>
+     
+    has been successfully completed.
+  </p>
+  <hr />
+  <p
+    class="mb-0"
+  >
+    Please wait for confirmation of delivery.
+  </p>
+</div>
+`;
+
+exports[`Корзина таблица с товарами отображается как надо 1`] = `
+<table
+  class="Cart-Table table"
+>
+  <thead>
+    <tr>
+      <th
+        scope="col"
+      >
+        #
+      </th>
+      <th
+        scope="col"
+      >
+        Product
+      </th>
+      <th
+        scope="col"
+      >
+        Price
+      </th>
+      <th
+        scope="col"
+      >
+        Count
+      </th>
+      <th
+        scope="col"
+      >
+        Total
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      data-testid="69"
+    >
+      <th
+        class="Cart-Index"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        class="Cart-Name"
+      >
+        bipki
+      </td>
+      <td
+        class="Cart-Price"
+      >
+        $
+        420
+      </td>
+      <td
+        class="Cart-Count"
+      >
+        2
+      </td>
+      <td
+        class="Cart-Total"
+      >
+        $
+        840
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td
+        colspan="4"
+      >
+        Order price:
+      </td>
+      <td
+        class="Cart-OrderPrice"
+      >
+        $
+        840
+      </td>
+    </tr>
+  </tfoot>
+</table>
+`;
